@@ -1,0 +1,26 @@
+{
+  "name": "@jsdevtools/action-create-branch",
+  "version": "1.0.0",
+  "description": "Take action on branch creation. Mark matching issues as WIP.",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
+    "@jestaubach/actions": "github:JEStaubach/actions#dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEStaubach/action-create-branch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEStaubach/action-create-branch"
+  },
+  "homepage": "https://github.com/JEStaubach/action-create-branch#readme"
+}
